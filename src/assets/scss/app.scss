@@ -1,0 +1,21 @@
+@charset 'utf-8';
+
+// Подключаем scss файлы из node_modules
+
+@import 'sass/normalize/import-now';
+
+// Файлы для вёрстки
+
+@import 'global/variables';
+@import 'global/global';
+
+@import 'vendor';
+
+// Блоки шапки
+
+@import 'components/page-header';
+@import 'components/main-nav';
+
+// Футер
+
+@import 'components/page-footer';

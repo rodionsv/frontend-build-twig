@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+  </head>
+<body>
+
+{% include '../partials/page-header.twig' %}
+
+<main class="page-main">
+  {% block content %}
+
+  {% endblock %}
+</main>
+
+{% include '../partials/page-footer.twig' %}
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
